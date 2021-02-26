@@ -1,0 +1,119 @@
+ /* 把我们所有标签的内外边距清零 */
+ 
+ body,
+ ol,
+ ul,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ th,
+ td,
+ dl,
+ dd,
+ form,
+ fieldset,
+ legend,
+ input,
+ textarea,
+ select {
+     margin: 0;
+     padding: 0
+ }
+ /* 规定好网页文字大小与样式,设置背景色 */
+ 
+ body {
+     /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+     -webkit-font-smoothing: antialiased;
+     background-color: #fff;
+     font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, HELVETICA "\5B8B\4F53", sans-serif;
+     color: #666
+ }
+ /* body{font:12px "宋体","Arial Narrow",;background:#fff;} */
+ /* em 和 i 斜体的文字不倾斜 */
+ 
+ em,
+ i {
+     font-style: normal
+ }
+ /* 去掉li 的小圆点 */
+ 
+ li {
+     list-style: none
+ }
+ 
+ img {
+     /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+     border: 0;
+     /* 取消图片底侧有空白缝隙的问题 */
+     vertical-align: middle
+ }
+ 
+ input,
+ button,
+ section,
+ option {
+     /* 清除输入框获取焦点默认的框 */
+     outline: none;
+ }
+ 
+ button {
+     /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+     cursor: pointer
+ }
+ 
+ a {
+     /* color: #666; */
+     text-decoration: none
+ }
+ /* a:hover {
+     color: #c81623;
+     text-decoration: underline;
+ } */
+ 
+ button,
+ input {
+     /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
+     font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif
+ }
+ /* 隐藏引用 */
+ 
+ .hide,
+ .none {
+     display: none
+ }
+ /* 内容将在边界内换行。如果需要，单词内部允许断行 */
+ 
+ p {
+     word-wrap: break-word
+ }
+ /* 首字下沉 */
+ 
+ .ind {
+     text-indent: 2em
+ }
+ 
+ .ind10 {
+     text-indent: 10px;
+ }
+ /* 去边框 */
+ 
+ .noborder {
+     border: 0;
+ }
+ /* 清除浮动 */
+ 
+ .clearfix:after {
+     visibility: hidden;
+     clear: both;
+     display: block;
+     content: ".";
+     height: 0
+ }
+ 
+ .clearfix {
+     *zoom: 1
+ }

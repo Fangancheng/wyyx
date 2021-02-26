@@ -1,0 +1,183 @@
+.content {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.goodsDetails {
+    height: 684px;
+    @extend .content;
+    overflow: hidden;
+    h4 {
+        margin: 20px 0;
+        font-size: 12px;
+        color: #333333;
+    }
+    .good_showing {
+        position: relative;
+        height: 685px;
+        .main {
+            width: 1280px;
+            position: relative;
+            .minBox {
+                width: 430px;
+                height: 430px;
+                float: left;
+                border: 1px solid hsl(0, 0%, 91%);
+                margin-bottom: 10px;
+                img {
+                    width: 430px;
+                    height: 430px;
+                    display: block;
+                }
+                .mask {
+                    width: 175px;
+                    height: 175px;
+                    background: orange;
+                    opacity: .4;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: none;
+                    cursor: move;
+                }
+            }
+            .changeimg {
+                li {
+                    width: 75px;
+                    height: 75px;
+                    float: left;
+                    margin-right: 10px;
+                    cursor: pointer;
+                    img {
+                        width: 100%;
+                    }
+                }
+                li:hover {
+                    width: 71px;
+                    height: 71px;
+                    border: 2px solid rgb(180, 160, 120);
+                }
+            }
+            .concent {
+                float: left;
+                width: 740px;
+                height: 462px;
+                margin-left: 40px;
+                h3 {
+                    font-size: 20px;
+                    color: #000001;
+                }
+                p {
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: #999999;
+                }
+                ul {
+                    padding: 5px 4px 0 4px;
+                    background-color: #f5f3ef;
+                    width: 605px;
+                    height: 310px;
+                    margin-top: 15px;
+                    border-bottom: 1px dashed #dddddd;
+                    border-top: 1px dashed #dddddd;
+                    li {
+                        margin-bottom: 15px;
+                        i {
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #999999;
+                            width: 56px;
+                        }
+                        span {
+                            font-size: 12px;
+                            color: #999999;
+                            h5 {
+                                font-size: 12px;
+                                font-weight: 400;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+                .change_count {
+                    margin-top: 21px;
+                    h6 {
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-top: -5px;
+                        font-size: 12px;
+                        color: #333333;
+                        font-weight: 400;
+                    }
+                    .count {
+                        display: inline-block;
+                        button {
+                            display: inline-block;
+                            border: none;
+                            width: 32px;
+                            height: 30px;
+                            text-align: center;
+                            font-size: 20px;
+                            color: #333333;
+                            font-weight: 600;
+                            border: #dddddd 1px solid;
+                            cursor: pointer;
+                        }
+                        i {
+                            display: inline-block;
+                            vertical-align: middle;
+                            text-align: center;
+                            line-height: 30px;
+                            margin-top: -7px;
+                            width: 60px;
+                            height: 28px;
+                            border: solid 1px #dddddd;
+                            border-left: none;
+                            border-right: none;
+                        }
+                    }
+                }
+                .addCar {
+                    margin: 50px 50px;
+                    cursor: pointer;
+                    width: 168px;
+                    height: 50px;
+                    background-color: #b4a078;
+                    text-align: left;
+                    line-height: 50px;
+                    color: #f5f3ef;
+                    border-radius: 4px;
+                    .img {
+                        margin: 15px 8px 0 25px;
+                        float: left;
+                        width: 21px;
+                        height: 21px;
+                        background: url(../img/goodsDetails/goodscar.png) 0px -60px no-repeat;
+                        background-size: 225%;
+                    }
+                }
+                .addCar:hover {
+                    background-color: rgb(192, 174, 138);
+                }
+            }
+            .maxBox {
+                width: 430px;
+                height: 430px;
+                border: 1px solid #cccccc;
+                position: absolute;
+                top: 0;
+                left: 445px;
+                display: none;
+                overflow: hidden;
+                img {
+                    width: 800px;
+                    height: 800px;
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,220 @@
+.content {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.goodCar {
+    margin-top: 10px;
+    overflow: hidden;
+    @extend .content;
+    .dropdown {
+        @extend .content;
+        height: 38px;
+        .juan {
+            float: left;
+            width: 1000px;
+            height: 38px;
+            line-height: 38px;
+            border: 1px solid #cccccc;
+            border-right: none;
+            .img {
+                float: left;
+                margin: 9px 17px 0 12px;
+                width: 28px;
+                height: 20px;
+                background: url(../img/goodsCar/car.png) 0px -91px no-repeat;
+                background-size: 725%;
+            }
+        }
+        select {
+            padding-left: 26px;
+            width: 88px;
+            height: 40px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #ffffff;
+            background-color: #e36844;
+            text-align: right;
+            float: left;
+            outline: none;
+            border: 1px solid #cccccc;
+            border-left: none;
+        }
+    }
+    .Carnews {
+        margin-top: 10px;
+        background-color: #f5f5f5;
+        @extend .content;
+        height: 45px;
+        line-height: 45px;
+        box-sizing: border-box;
+        border: solid 1px #cccccc;
+        .car_left {
+            float: left;
+            input {
+                margin-left: 20px;
+                margin-right: 14px;
+            }
+        }
+        span {
+            float: left;
+            color: #333333;
+            font-size: 12px;
+            margin-left: 80px;
+        }
+        .car_right {
+            float: left;
+            height: 45px;
+            margin-left: 160px;
+            span {
+                margin-left: 175px;
+            }
+        }
+    }
+    .Car_good {
+        margin-top: 20px;
+        li {
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            background-color: #fffbf0;
+            border: 1px solid #dddddd;
+            padding: 20px 21px;
+            .img {
+                margin-left: 20px;
+                border: 1px solid #dddddd;
+                width: 98px;
+                height: 98px;
+                img {
+                    width: 98px;
+                    height: 98px;
+                }
+            }
+            .Car_good_news {
+                width: 290px;
+                text-align: left;
+                height: 98px;
+                margin: 20px;
+                h4 {
+                    margin: 10px 0 13px;
+                    font-size: 14px;
+                    color: #000;
+                }
+                p {
+                    color: #999999;
+                    font-size: 12px;
+                }
+            }
+            span {
+                width: 140px;
+                text-align: center;
+            }
+            .change_count {
+                // margin-top: 21px;
+                margin-left: 70px;
+                h6 {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-top: -5px;
+                    font-size: 12px;
+                    color: #333333;
+                    font-weight: 400;
+                }
+                .count {
+                    display: inline-block;
+                    button {
+                        display: inline-block;
+                        border: none;
+                        width: 32px;
+                        height: 30px;
+                        text-align: center;
+                        font-size: 20px;
+                        color: #333333;
+                        font-weight: 600;
+                        border: #dddddd 1px solid;
+                        cursor: pointer;
+                        // margin-top: -22px;
+                        vertical-align: middle;
+                    }
+                    i {
+                        display: inline-block;
+                        vertical-align: middle;
+                        text-align: center;
+                        line-height: 30px;
+                        // margin-top: -22px;
+                        width: 60px;
+                        height: 28px;
+                        border: solid 1px #dddddd;
+                        border-left: none;
+                        border-right: none;
+                    }
+                }
+            }
+            .allprice {
+                display: inline-block;
+                width: 90px;
+                text-align: center;
+                margin-left: 80px;
+            }
+            h5 {
+                margin-left: 50px;
+                cursor: pointer;
+            }
+            h5:hover {
+                color: red;
+            }
+        }
+    }
+    .overPrice {
+        margin-top: 10px;
+        height: 68px;
+        box-sizing: border-box;
+        @extend .content;
+        border: 1px solid #dddddd;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        input {
+            margin-right: 14px;
+        }
+        .deleGood {
+            margin-left: 40px;
+        }
+        .paying {
+            height: 50px;
+            margin-left: 498px;
+            padding-left: 30px;
+            border-left: 1px solid #dddddd;
+            color: #333333;
+            font-size: 12px;
+            i {
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 3px;
+            }
+            span {
+                font-size: 20px;
+                font-weight: 700;
+                color: #be4141;
+                margin-left: 29px;
+            }
+            h6 {
+                text-align: right;
+                color: #d3282d;
+                font-size: 12px;
+                margin-top: 6px;
+            }
+        }
+        .downPrice {
+            margin-left: 32px;
+            cursor: pointer;
+            width: 140px;
+            height: 69px;
+            color: #fff;
+            text-align: center;
+            line-height: 70px;
+            background-color: #b4a078;
+        }
+    }
+}

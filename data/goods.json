@@ -1,0 +1,15 @@
+[
+    { "imgurl1": "../img/goodslist/anmoyi.webp", "title": "轻便午睡折叠床", "imgurl": "../img/goodslist/anmoyi2.webp", "price": "¥299", "code": "abc1", "news": "超高性价比不变价款" },
+    { "imgurl1": "../img/goodslist/img12.webp", "title": "多功能私享按摩椅", "imgurl": "../img/goodslist/img11.webp", "price": "¥2299", "code": "abc2", "news": "选款师力荐 专属私人按摩师" },
+    { "imgurl1": "../img/goodslist/img22.webp", "title": "AB面乳胶独立弹簧床垫 升级款", "imgurl": "../img/goodslist/img21.webp", "price": "¥1499", "code": "abc3", "news": "仅售供应商建议价的1/3" },
+    { "imgurl1": "../img/goodslist/img32.webp", "title": "冬夏软硬两用 护脊椰棕乳胶床垫 经典款", "imgurl": "../img/goodslist/img31.webp", "price": "¥1393", "code": "abc4", "news": "天然椰棕护脊，硬度偏好者优选" },
+    { "imgurl1": "../img/goodslist/img42.webp", "title": "提升衣品必备，简约日式实木落地镜 新尺寸", "imgurl": "../img/goodslist/img41.webp", "price": "¥182", "code": "abc5", "news": "新增加大加宽尺寸，透亮镜面更清晰" },
+    { "imgurl1": "../img/goodslist/img52.webp", "title": "全棉针织条纹四件套", "imgurl": "../img/goodslist/img51.webp", "price": "¥186", "code": "abc6", "news": "够柔够弹针织棉，亲肤可裸睡" },
+    { "imgurl1": "../img/goodslist/img62.webp", "title": "新贵轻奢8小时，60支锦眠贡缎四件套", "imgurl": "../img/goodslist/img61.webp", "price": "¥347", "code": "abc7", "news": "高密纯棉贡缎，入门奢享" },
+    { "imgurl1": "../img/goodslist/img72.webp", "title": "睡眠奢侈品，100支奢密贡缎匹马棉四件套", "imgurl": "../img/goodslist/img71.webp", "price": "¥421", "code": "abc8", "news": "棉中匹马棉，百支奢密享奢眠" },
+    { "imgurl1": "../img/goodslist/img82.webp", "title": "日式全棉格纹四件套 新款", "imgurl": "../img/goodslist/img81.webp", "price": "¥221", "code": "abc9", "news": "日式水洗工艺，慵懒自然" },
+    { "imgurl1": "../img/goodslist/img92.webp", "title": "享自由裸睡，天竺棉全棉针织拼色四件套", "imgurl": "../img/goodslist/img91.webp", "price": "¥179", "code": "abc10", "news": "亚麻观感，纯棉质感，吸汗透气，舒适..." },
+    { "imgurl1": "../img/goodslist/img102.webp", "title": "护脊可折叠，活氧棉乳胶防螨床垫...", "imgurl": "../img/goodslist/img101.webp", "price": "¥799", "code": "abc11", "news": "明星商品日叠加Pro最高直降300元，同价..." },
+    { "imgurl1": "../img/goodslist/img112.webp", "title": "硬中带柔，护脊黄麻硬质薄床垫 经典款", "imgurl": "../img/goodslist/img111.webp", "price": "¥865", "code": "abc12", "news": "黄麻天然护脊，纤薄设计一垫多用" }
+
+]

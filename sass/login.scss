@@ -1,0 +1,95 @@
+    .login_banner {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        .login {
+            padding: 35px 43px 60px;
+            width: 302px;
+            background-color: #fff;
+            position: absolute;
+            top: 150px;
+            right: 400px;
+            .dl_top {
+                padding: 0 16px;
+                display: flex;
+                justify-content: space-between;
+                h3 {
+                    font-size: 18px;
+                    font-weight: 400;
+                    cursor: pointer;
+                }
+                h3:hover {
+                    color: #756442;
+                }
+                .change_show {
+                    color: #756442;
+                }
+                // span {
+                // }
+            }
+            .main {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                background: #fff;
+                display: none;
+                input {
+                    padding-left: 5px;
+                }
+                #user1,
+                #user2 {
+                    border: 1px solid #dddddd;
+                    width: 200px;
+                    height: 40px;
+                }
+                #pass1,
+                #pass2 {
+                    margin-top: 15px;
+                    border: 1px solid #dddddd;
+                    width: 200px;
+                    height: 40px;
+                }
+                .but {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 40px;
+                    button {
+                        width: 100px;
+                        height: 40px;
+                        text-align: center;
+                        line-height: 40px;
+                        background-color: #756442;
+                        margin-right: 15px;
+                        border: none;
+                        font-size: 16px;
+                        color: #fff;
+                    }
+                }
+            }
+            .main_show {
+                display: flex;
+            }
+            //     .show {
+            //         display: none;
+            //     }
+            //     .phone_login {
+            //         h4 {
+            //             display: none;
+            //             font-size: 12px;
+            //             text-align: right;
+            //         }
+            //     }
+            //     .phone_login .h4_show {
+            //         display: block;
+            //     }
+            //     input {
+            //         width: 100%;
+            //         height: 40px;
+            //         border: solid 1px rgb(216, 218, 221);
+            //     }
+            // }
+        }
+    }
